@@ -7,7 +7,7 @@ import { SkeletonGrid } from '../components/ui/Loader'
 import { ErrorState } from '../components/ui/ErrorState'
 import { SlidersHorizontal, X } from 'lucide-react'
 
-const DEFAULT_PLACE_ID = 'ChIJD7fiBh9u5kcRYJSMaMOCCwQ'
+const DEFAULT_PLACE_ID = 'Paris'
 
 export default function Home({ searchQuery }) {
   const { filters } = useFilters()
